@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router"
 
 const routes = [
     {
-        path: '/',
+        path: '/gallery',
         name: 'Photos',
         component: () => import('../views/Photos.vue'),
         children: [
@@ -14,7 +14,7 @@ const routes = [
         ]
     },
     {
-        path: '/curated',
+        path: '/gallery/curated',
         name: 'Curated',
         component: () => import('../views/Curated.vue'),
         children: [
@@ -26,7 +26,7 @@ const routes = [
         ]
     },
     {
-        path: '/videos',
+        path: '/gallery/videos',
         name: 'Videos',
         component: () => import('../views/Videos.vue'),
         children: [
