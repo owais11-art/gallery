@@ -1,7 +1,17 @@
-# Vue 3 + Vite
+# Gallery
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+It is a simple gallery which uses pexels API for photos and videos.
 
-## Recommended IDE Setup
+Live: https://owais11-art.github.io/gallery/
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+# How to Run
+
+- install vite.
+- Clone this repository (git clone https://github.com/owais11-art/gallery.git).
+- npm install (To install all the dependencies)
+- npm run dev (To start development server at http://localhost:5173/)
+
+# Functionality
+
+- Users can see different photos and videos pulled from pexels API.
+- Users can also search for specific videos or photos.
