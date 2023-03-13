@@ -1,0 +1,1 @@
+.videos[data-v-055d80ba]{width:95%;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:5px;grid-auto-flow:dense}.videos .video[data-v-055d80ba]{cursor:pointer}.videos .video.vertical[data-v-055d80ba]{grid-row:span 2}.videos .video.horizontal[data-v-055d80ba]{grid-column:span 2}.videos .video img[data-v-055d80ba]{object-fit:cover}
