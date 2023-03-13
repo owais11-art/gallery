@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router"
 
 const routes = [
     {
-        path: '/gallery',
+        path: '/gallery/',
         name: 'Photos',
         component: () => import('../views/Photos.vue'),
         children: [
